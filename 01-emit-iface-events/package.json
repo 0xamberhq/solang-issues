@@ -1,0 +1,10 @@
+{
+    "name": "solang-issue",
+    "version": "0.0.0",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "build:solang": "solang compile --target substrate -o ./build ./contracts/Test.sol",
+        "build:solc": "solc --bin -o ./build contracts/Test.sol"
+    }
+}
